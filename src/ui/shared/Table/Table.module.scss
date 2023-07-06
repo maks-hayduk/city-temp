@@ -1,0 +1,42 @@
+@import "@/assets/styles/colors";
+
+$cell-width: 153px;
+$cell-left-padding: 12px;
+
+.table {
+  color: $color-white;
+  border-radius: 12px;
+  border-collapse: collapse;
+  outline: 1px solid $gray100;
+  overflow: hidden;
+}
+
+.tableHead {
+  background: $color-black;
+}
+
+.tableHeadCell {
+  width: $cell-width;
+  padding: $cell-left-padding;
+}
+
+.tableRowCell {
+  width: $cell-width;
+  padding: $cell-left-padding;
+}
+
+.tableRow {
+  background: $gray;
+}
+
+.tableRow:nth-child(2n) {
+  background: $gray100;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+  text-align: right;
+}

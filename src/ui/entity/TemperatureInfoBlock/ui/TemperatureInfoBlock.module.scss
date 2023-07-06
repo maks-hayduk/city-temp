@@ -1,0 +1,20 @@
+@import "@/assets/styles/colors";
+
+.container {
+  width: 640px;
+  height: 450px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.error {
+  color: $red;
+}

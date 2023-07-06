@@ -1,0 +1,17 @@
+$color-white: white;
+$color-black: #030303;
+
+$gray: #1A1A1A;
+$gray100: #313131;
+$gray200: #434343;
+$gray300: #515151;
+$red: red;
+
+:export {
+  colorWhite: $color-white;
+  colorBlack: $color-black;
+
+  gray: $gray;
+  gray100: $gray100;
+  gray200: $gray200;
+}

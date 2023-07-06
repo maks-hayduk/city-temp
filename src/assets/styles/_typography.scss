@@ -1,0 +1,32 @@
+// Heading
+@mixin font-heading-bolder {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+// Detail
+@mixin font-detail-regular {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@mixin font-detail-bold {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@mixin font-detail-bolder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+// Subtitle
+@mixin font-subtitle-bold {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}

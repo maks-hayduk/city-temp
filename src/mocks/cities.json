@@ -1,0 +1,29 @@
+{
+  "cities": [
+    {
+      "name": "Lviv",
+      "lat": 49.8383,
+      "long": 24.0232
+    },
+    {
+      "name": "Kyiv",
+      "lat": 50.4547,
+      "long": 30.5238
+    },
+    {
+      "name": "Berlin",
+      "lat": 52.5244,
+      "long": 13.4105
+    },
+    {
+      "name": "Luxembourg",
+      "lat": 49.75,
+      "long": 6.1667
+    },
+    {
+      "name": "Paris",
+      "lat": 48.8534,
+      "long": 2.3488
+    }
+  ]
+}

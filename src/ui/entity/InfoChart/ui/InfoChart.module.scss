@@ -1,0 +1,46 @@
+@import "@/assets/styles/colors";
+@import "@/assets/styles/typography";
+
+.container {
+  width: 450px;
+  height: 450px;
+  position: relative;
+
+  :global(.recharts-wrapper > .recharts-surface) {
+    margin-top: 40px;
+  }
+
+  :global(.recharts-legend-wrapper) {
+    color: $color-white;
+  }
+
+  :global(.recharts-tooltip-cursor) {
+    fill: $gray100;
+  }
+
+  :global(.recharts-default-tooltip) {
+    border-radius: 8px;
+    border: 1px solid $gray100 !important;
+    background-color: $gray300 !important;
+    color: $color-white;
+  }
+
+  :global(.recharts-legend-icon) {
+    fill: #B3FC4F;
+  }
+
+  :global(.recharts-xAxis) {
+    :global(.recharts-text) {
+      fill: $color-white;
+    }
+  }
+
+  :global(.recharts-legend-item-text) {
+    @include font-detail-regular;
+  }
+}
+
+.title {
+  position: absolute;
+  color: $color-white;
+}

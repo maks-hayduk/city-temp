@@ -1,0 +1,37 @@
+@import "@/assets/styles/colors";
+@import "@/assets/styles/typography";
+
+.base {
+  :global(.react-select__control) {
+    border-radius: 16px;
+    min-width: 160px;
+    min-height: 40px;
+    border: 1px solid $gray300;
+    background: $gray100;
+    color: $color-white;
+  }  
+
+  :global(.react-select__menu) {
+    border-radius: 8px;
+    background: $gray100;
+    overflow: hidden;
+  }  
+
+  :global(.react-select__input) {
+    color: $color-white !important;
+  }
+
+  :global(.react-select__option) {
+    background: $gray100;
+    color: $color-white;
+  }
+
+  :global(.react-select__option--is-selected) {
+    background: $gray300;
+  }
+
+  :global(.react-select__value-container) {
+    @include font-detail-regular;
+    padding-left: 16px;
+  }
+}

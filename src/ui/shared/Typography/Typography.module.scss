@@ -1,0 +1,25 @@
+@import "@/assets/styles/typography";
+
+.h1 {
+  @include font-heading-bolder;
+}
+
+.subtitle1 {
+  @include font-detail-regular;
+}
+
+.subtitle2 {
+  @include font-subtitle-bold;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.bolder {
+  font-weight: 700;
+}

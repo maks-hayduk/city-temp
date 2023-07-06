@@ -1,0 +1,21 @@
+@import "@/assets/styles/colors";
+@import "@/assets/styles/typography";
+
+.input {
+  height: 40px;
+  width: 160px;
+  border: 1px solid $gray300;
+  background: $gray100;
+  padding-left: 16px;
+  border-radius: 16px;
+  color: $color-white;
+  font-family: inherit;
+}
+
+.input:focus {
+  outline: none !important;
+}
+
+.input::placeholder {
+  @include font-detail-regular;
+}
